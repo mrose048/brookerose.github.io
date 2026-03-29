@@ -1,0 +1,106 @@
+---
+title: "Publications"
+---
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| results: asis
+
+library(bibtex)
+library(dplyr)
+library(purrr)
+library(glue)
+
+`%||%` <- function(x, y) {
+  if (is.null(x) || length(x) == 0) y else x
+}
+
+bib <- read.bib("references.bib")
+
+pubs <- imap_dfr(bib, function(entry, key) {
+  entry_list <- as.list(entry)
+
+  authors <- entry_list$author
+  author_text <- if (!is.null(authors)) {
+    paste(
+      vapply(authors, function(x) {
+        given  <- paste(x$given, collapse = " ")
+        family <- paste(x$family, collapse = " ")
+        name   <- trimws(paste(given, family))
+
+        if (family == "Rose") {
+          paste0("**", name, "**")
+        } else {
+          name
+        }
+      }, character(1)),
+      collapse = ", "
+    )
+  } else {
+    NA_character_
+  }
+
+  tibble(
+    key     = key,
+    title   = entry_list$title %||% NA_character_,
+    author  = author_text,
+    journal = entry_list$journal %||% entry_list$publisher %||% "",
+    year    = suppressWarnings(as.numeric(entry_list$year %||% NA_character_)),
+    volume  = entry_list$volume %||% "",
+    number  = entry_list$number %||% "",
+    pages   = entry_list$pages %||% "",
+    url     = entry_list$url %||% ""
+  )
+})
+
+pubs <- pubs %>%
+  filter(!is.na(year)) %>%
+  arrange(desc(year), title)
+
+format_pub <- function(author, year, title, journal, volume, number, pages, url) {
+  vol_issue <- dplyr::case_when(
+    volume != "" & number != "" ~ glue("{volume}({number})"),
+    volume != "" ~ volume,
+    TRUE ~ ""
+  )
+
+  journal_part <- if (journal != "") glue("*{journal}*") else ""
+  vol_part     <- if (vol_issue != "") glue(", {vol_issue}") else ""
+  pages_part   <- if (pages != "") glue(", {pages}") else ""
+
+  out <- glue("{author}. {year}. {title}. {journal_part}{vol_part}{pages_part}.")
+
+  if (url != "") {
+    out <- glue("{out} [Link]({url})")
+  }
+
+  out
+}
+
+years <- pubs %>%
+  distinct(year) %>%
+  arrange(desc(year)) %>%
+  pull(year)
+
+for (yr in years) {
+  cat(glue("\n### {yr}\n\n"))
+
+  pubs_year <- pubs %>% filter(year == yr)
+
+  for (i in seq_len(nrow(pubs_year))) {
+    cat(format_pub(
+      author  = pubs_year$author[i],
+      year    = pubs_year$year[i],
+      title   = pubs_year$title[i],
+      journal = pubs_year$journal[i],
+      volume  = pubs_year$volume[i],
+      number  = pubs_year$number[i],
+      pages   = pubs_year$pages[i],
+      url     = pubs_year$url[i]
+    ))
+    cat("\n\n")
+  }
+}
+```

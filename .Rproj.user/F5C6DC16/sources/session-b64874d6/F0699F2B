@@ -1,0 +1,31 @@
+{
+    "id": "F0699F2B",
+    "path": "~/Documents/website/brooke-rose-website/index.qmd",
+    "project_path": "index.qmd",
+    "type": "quarto_markdown",
+    "hash": "3953049102",
+    "contents": "",
+    "dirty": false,
+    "created": 1774812924237.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "source_window_id": "",
+        "Source": "Source",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "40:0",
+        "cursorPosition": "21,72",
+        "scrollLine": "15"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1774824479,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1774824479198,
+    "read_only": false,
+    "read_only_alternatives": []
+}

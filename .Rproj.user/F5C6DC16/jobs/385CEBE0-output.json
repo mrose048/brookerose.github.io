@@ -1,0 +1,6 @@
+[1,"Installing 'bibtex' ...\n"]
+[2,"trying URL 'https://cran.rstudio.com/bin/macosx/big-sur-arm64/contrib/4.5/bibtex_0.5.2.tgz'\n"]
+[2,"Content type 'application/x-gzip' length 74341 bytes (72 KB)\n==================================================\ndownloaded 72 KB\n\n"]
+[1,"The downloaded binary packages are in\n"]
+[1,"\t/var/folders/8d/fp7kk83950x1881_pcs6s03m0000gn/T//Rtmpf7VbXf/downloaded_packages\n"]
+[2,"\n\n✔ Package 'bibtex' successfully installed.\n"]

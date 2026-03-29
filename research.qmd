@@ -1,0 +1,57 @@
+---
+title: "Research"
+---
+
+The VAST Lab studies how vegetation changes across landscapes and through time by integrating remote sensing, field observations, and ecological models. Our work focuses on linking processes across scales, from leaf- and canopy-level dynamics to broad patterns of ecological change across regions and timescales.
+
+------------------------------------------------------------------------
+
+## Plant phenology and flowering dynamics
+
+Through a NASA grant via the Biodiversity and Ecological Conservation Program, we are investigating how plant phenology varies across species, landscapes, and seasons, with a particular focus on the detection and mapping of flowering from airborne and field spectroscopy on California's central coast. This work integrates hyperspectral imagery, field-collected spectra, and in situ phenology observations to identify spectral signals of flowering and to bridge the gap between organismal observations and landscape-scale monitoring.
+
+**Current directions include:** - mapping wildflower dynamics using AVIRIS imagery - linking field spectra to airborne observations of flowering - integrating National Phenology Network and iNaturalist observations with remote sensing products
+
+![](images/phenoscapes.png){fig-alt="Example figure related to flowering phenology and imaging spectroscopy" width="100%"}
+
+------------------------------------------------------------------------
+
+## Vegetation–climate relationships and forecasting
+
+Another major focus of the lab is understanding how vegetation distribution respond to climate variability and change. We use species distribution models, spatial environmental data, and ecological theory to examine present-day patterns, forecast future change, and identify areas of persistence or vulnerability.
+
+**Current directions include:** - forecasting climate vulnerability in California oak systems - modeling vegetation responses to hydroclimatic gradients - using spatial models to support conservation and management decisions
+
+::: {.columns}
+
+::: {.column width="65%"}
+![](images/sdm_workflow.png){fig-alt="Blue oak climate vulnerability map"}
+:::
+
+::: {.column width="35%"}
+![](images/blue_oak_vulnerability.png){fig-alt="Vegetation–climate modeling example"}
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+## Remote sensing of vegetation resilience
+
+We use field-based recruitment data, multispectral time series, and species-specific climate change projections to understand landscape resilience and resistance under global change. 
+
+**Current directions include:** - remote sensing of oak resilience and disturbance response using field observations, multispectral remote sensing, and climate change projections
+
+![](images/workflow_fig.png){fig-alt="Example figure related to remote sensing of ecosystem change" width="100%"}
+
+------------------------------------------------------------------------
+
+## Deep-time vegetation dynamics
+
+We also study vegetation change over much longer timescales, using paleoenvironmental, climatic, and spatial data to reconstruct past landscapes and interpret ecological change through time. This work helps place contemporary vegetation dynamics in a broader temporal context and supports questions about long-term climate–vegetation relationships and human-environment interactions.
+
+**Current directions include:** - reconstructing vegetation patterns on the Cape South Coast of South Africa - examining the influence of rainfall seasonality, geology, and soils on past ecosystems - linking long-term vegetation change to questions in paleoecology and human evolution
+
+![](images/vegetation_animation_cropped.gif){fig-alt="Example figure related to deep-time vegetation dynamics" width="100%"}
+
+------------------------------------------------------------------------

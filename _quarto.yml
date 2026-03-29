@@ -1,0 +1,24 @@
+project:
+  type: website
+
+website:
+  title: "Brooke Rose"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: teaching.qmd
+        text: Teaching
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    citeproc: true
+    filters:
+      - highlight-author.lua
