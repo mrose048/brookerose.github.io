@@ -13,7 +13,8 @@ website:
         text: Publications
       - href: teaching.qmd
         text: Teaching
-
+  search: true
+  
 format:
   html:
     theme: cosmo
@@ -22,3 +23,5 @@ format:
     citeproc: true
     filters:
       - highlight-author.lua
+
+
