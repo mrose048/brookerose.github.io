@@ -13,6 +13,8 @@ website:
         text: Publications
       - href: teaching.qmd
         text: Teaching
+      - href: students.qmd
+        text: Students
   search: true
   
 format:
