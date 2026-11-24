@@ -6,7 +6,7 @@ title: "Students"
 
 I'm joining the JMU Geography department in spring 2027, and I'm looking for undergraduates who are curious about how landscapes change: why wildflowers bloom when they do, how oak woodlands recover after fire, or what South Africa's coast looked like hundreds of thousands of years ago.
 
-**You don't need prior research experience.** Curiosity, reliability, and a willingness to learn new tools matter more than what you already know.
+**You don't need prior research experience.** Curiosity, reliability, and a willingness to learn new tools matter more than what you already know!
 
 ------------------------------------------------------------------------
 
@@ -15,8 +15,8 @@ I'm joining the JMU Geography department in spring 2027, and I'm looking for und
 Depending on the project and your interests, you might:
 
 - 🛰️ Work with satellite and airborne imagery to map vegetation change
-- 🌼 Help connect field observations of flowering to what we can see from above
-- 💻 Learn to analyze and map environmental data in R, a skill employers and graduate programs look for
+- 🌼 Help connect field observations of flowering to what we can see from the sky (or space)
+- 💻 Learn to analyze and map environmental data in R
 - 📊 Build maps and figures that help land managers make conservation decisions
 - 🗣️ Present your work at JMU events or at regional and national conferences
 
@@ -24,6 +24,7 @@ Depending on the project and your interests, you might:
 
 ### Ways to get involved
 
+- **Paid research assistantship.** Want to help build GIS and remote sensing tools for improving oak conservation? I will be recruiting several multi-year research assistants to help process remote sensing data, build ecologial models, and develop a user-friendly tool that will be used by The Nature Conservancy and other land managers in California.
 - **Independent study or research credit.** Work on a piece of an ongoing project for course credit.
 - **Honors or senior thesis.** Develop your own question related to vegetation change, remote sensing, or biogeography.
 
@@ -31,8 +32,8 @@ Depending on the project and your interests, you might:
 
 ### Courses I teach at JMU
 
-- **Spring 2027:** GEOG 385: Digital Image Processing in Remote Sensing, a hands-on course on using remote sensing to map vegetation change
-- **Fall 2027:** *Geographic Data Science for a Changing Planet*, where you'll learn R-based geospatial data science through examples like wildfire severity mapping and species distribution modeling. No coding experience required.
+- **Spring 2027:** GEOG 385: Digital Image Processing in Remote Sensing, a hands-on course on using remote sensing to map environmental change.
+- **Fall 2027:** TBD!
 
 Taking one of my courses is a great way to see whether the lab is a good fit.
 
@@ -40,10 +41,10 @@ Taking one of my courses is a great way to see whether the lab is a good fit.
 
 ### How to reach out
 
-Send me an email at [mbrose@sdsu.edu](mailto:mbrose@sdsu.edu) (a JMU address is coming soon) with:
+Send me an email at [mbrose@sdsu.edu](mailto:mbrose@sdsu.edu) (a JMU address is coming soon!) with:
 
 1. Your year and major
 2. A few sentences about what interests you (it's fine if it's broad!)
 3. Any relevant courses or experience (none is fine too)
 
-I read every email, and I'm happy to meet even if you're just exploring.
+I read every email, and I'm happy to meet even if you just want to chat about your interests and what you can do with a Geography degree.
