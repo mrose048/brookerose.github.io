@@ -2,9 +2,18 @@
 title: ""
 ---
 
-![](images/lab_logo_draft3.png){fig-alt="VAST Lab logo" width="100%"}
+![](images/rose_lab_logo.png){fig-alt="Rose Lab logo: vegetation across space and time" width="100%"}
 
 We study how vegetation changes across landscapes and through time by integrating remote sensing, field observations, and ecological models. Our work links processes across scales to understand and predict ecosystem dynamics in a changing world.
+
+::: {.photo-grid}
+![](images/field-oak-savanna.jpg){fig-alt="Oak savanna on golden hills under a blue sky" group="field"}
+![](images/field-coastal-wildflowers.jpg){fig-alt="Coastal hillside covered in orange and white wildflowers" group="field"}
+![](images/field-burned-sequoia.jpg){fig-alt="Fire-scarred giant sequoia among living trees" group="field"}
+![](images/field-mustard.jpg){fig-alt="Yellow-flowering mustard in dry grassland" group="field"}
+![](images/field-south-africa-coast.jpg){fig-alt="Researchers looking out over the rocky south coast of South Africa" group="field"}
+![](images/field-sage.jpg){fig-alt="Close-up of lavender sage flowers" group="field"}
+:::
 
 ------------------------------------------------------------------------
 

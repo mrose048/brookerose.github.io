@@ -2,7 +2,7 @@
 title: "Research"
 ---
 
-The VAST Lab studies how vegetation changes across landscapes and through time by integrating remote sensing, field observations, and ecological models. Our work focuses on linking processes across scales, from leaf- and canopy-level dynamics to broad patterns of ecological change across regions and timescales.
+The Rose Lab studies how vegetation changes across landscapes and through time by integrating remote sensing, field observations, and ecological models. Our work focuses on linking processes across scales, from leaf- and canopy-level dynamics to broad patterns of ecological change across regions and timescales.
 
 ------------------------------------------------------------------------
 

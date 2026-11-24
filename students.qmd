@@ -2,7 +2,7 @@
 title: "Students"
 ---
 
-## Join the VAST Lab
+## Join the Rose Lab
 
 I'm joining the JMU Geography department in spring 2027, and I'm looking for undergraduates who are curious about how landscapes change: why wildflowers bloom when they do, how oak woodlands recover after fire, or what South Africa's coast looked like hundreds of thousands of years ago.
 
@@ -20,21 +20,18 @@ Depending on the project and your interests, you might:
 - 📊 Build maps and figures that help land managers make conservation decisions
 - 🗣️ Present your work at JMU events or at regional and national conferences
 
-[EDIT: Add any field components once you know them, e.g., local field days in the Shenandoah Valley.]
-
 ------------------------------------------------------------------------
 
 ### Ways to get involved
 
 - **Independent study or research credit.** Work on a piece of an ongoing project for course credit.
 - **Honors or senior thesis.** Develop your own question related to vegetation change, remote sensing, or biogeography.
-- **Volunteer or paid positions.** [EDIT: Describe if/when available, or delete this line.]
 
 ------------------------------------------------------------------------
 
 ### Courses I teach at JMU
 
-- **Spring 2027:** [EDIT: GEOG 385 or GEOG 485], a hands-on course on using remote sensing to map vegetation change
+- **Spring 2027:** GEOG 385: Digital Image Processing in Remote Sensing, a hands-on course on using remote sensing to map vegetation change
 - **Fall 2027:** *Geographic Data Science for a Changing Planet*, where you'll learn R-based geospatial data science through examples like wildfire severity mapping and species distribution modeling. No coding experience required.
 
 Taking one of my courses is a great way to see whether the lab is a good fit.
@@ -43,7 +40,7 @@ Taking one of my courses is a great way to see whether the lab is a good fit.
 
 ### How to reach out
 
-Send me an email at [EDIT: JMU email] with:
+Send me an email at [mbrose@sdsu.edu](mailto:mbrose@sdsu.edu) (a JMU address is coming soon) with:
 
 1. Your year and major
 2. A few sentences about what interests you (it's fine if it's broad!)
